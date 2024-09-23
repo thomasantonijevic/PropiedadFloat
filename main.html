@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Películas Favoritas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            overflow: hidden; /* Previene problemas de colapso con floats */
+            padding: 20px;
+        }
+        .column {
+            float: left;
+            width: 33%; /* Cada columna tiene un ancho del 33% */
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .column h2 {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .column p {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        .clear {
+            clear: both;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mis Películas Favoritas</h1>
+    </header>
+
+    <div class="container">
+        <!-- Columna 1: The Dark Knight -->
+        <div class="column">
+            <h2>The Dark Knight</h2>
+            <p>Dirigida por Christopher Nolan, 'The Dark Knight' es una obra maestra del cine de superhéroes. Con la icónica interpretación de Heath Ledger como el Joker, la película explora los límites entre el bien y el mal en Gotham City.</p>
+        </div>
+
+        <!-- Columna 2: Bastardos sin Gloria -->
+        <div class="column">
+            <h2>Bastardos sin Gloria</h2>
+            <p>Quentin Tarantino reescribe la historia de la Segunda Guerra Mundial en este audaz thriller. Con actuaciones inolvidables y escenas tensas, 'Bastardos sin Gloria' es una obra de cine épico que desafía los géneros convencionales.</p>
+        </div>
+
+        <!-- Columna 3: Howl's Moving Castle -->
+        <div class="column">
+            <h2>El Castillo Ambulante</h2>
+            <p>Dirigida por Hayao Miyazaki, esta hermosa película animada sigue a Sophie, una joven que es transformada en anciana por una maldición. Su viaje en el castillo mágico de Howl está lleno de magia y sorpresas.</p>
+        </div>
+
+        <div class="clear"></div> <!-- Clear para evitar que el siguiente contenido flote al lado de las columnas -->
+
+        <!-- Columna 4: Interstellar -->
+        <div class="column">
+            <h2>Interstellar</h2>
+            <p>Otra obra maestra de Christopher Nolan, 'Interstellar' trata sobre la supervivencia de la humanidad y el viaje a través del espacio para encontrar un nuevo hogar. La ciencia ficción y el drama humano se entrelazan de manera brillante.</p>
+        </div>
+
+        <!-- Columna de relleno para mantener tres columnas visibles -->
+        <div class="column">
+            <h2>Columna vacía</h2>
+            <p>Esta columna está vacía, pero sirve para mantener la estructura de tres columnas en la fila.</p>
+        </div>
+
+        <!-- Columna de relleno -->
+        <div class="column">
+            <h2>Columna vacía</h2>
+            <p>Otra columna vacía para completar la disposición de tres columnas.</p>
+        </div>
+
+        <div class="clear"></div> <!-- Clear para la siguiente sección si es necesario -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mis Películas Favoritas</p>
+    </footer>
+
+</body>
+</html>
